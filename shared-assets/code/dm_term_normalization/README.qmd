@@ -1,0 +1,30 @@
+---
+format:
+  html:
+    author: "Simon Allzén"
+    title: "Term Normalization"
+    subtitle: "_Shared Research Infrastructure_"
+    theme:
+      dark: darkly
+      light: flatly
+    mainfont: "Fraunces"
+    fontsize: "10pt"
+    code-fold: true
+    code-summary: "Show the code"
+    tabset: true
+    minimal: true
+    max-width: "1600"
+    smooth-scroll: true
+    page-layout: article
+    df-print: kable
+    mermaid:
+      theme: neutral
+
+  gfm:
+    toc: false
+    output-file: README.md
+---
+
+# Dark-Matter Term Normalization
+
+Canonical shared package for dark-matter term normalization, candidate label mapping, and TF-IDF preprocessing helpers.

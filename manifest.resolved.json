@@ -1,0 +1,185 @@
+{
+  "paper_id": "semantic-change",
+  "paper_type": "computational",
+  "export_mode": "repo",
+  "source_paper_dir": "semantic-change",
+  "shared_resources": [
+    {
+      "source": "shared-assets/data/processed-data",
+      "target": "shared-assets/data/processed-data"
+    },
+    {
+      "source": "shared-assets/code/dm_term_normalization",
+      "target": "shared-assets/code/dm_term_normalization"
+    },
+    {
+      "source": "shared-assets/code/run_modes",
+      "target": "shared-assets/code/run_modes"
+    },
+    {
+      "source": "shared-assets/code/workspace_rooting",
+      "target": "shared-assets/code/workspace_rooting"
+    },
+    {
+      "source": "shared-assets/config/tfidf",
+      "target": "shared-assets/config/tfidf"
+    },
+    {
+      "source": "shared-assets/lists/tfidf",
+      "target": "shared-assets/lists/tfidf"
+    },
+    {
+      "source": "shared-assets/tex/partials/title.tex",
+      "target": "shared-assets/tex/partials/title.tex"
+    },
+    {
+      "source": "shared-assets/tex/csl/apa.csl",
+      "target": "shared-assets/tex/csl/apa.csl"
+    }
+  ],
+  "repo_included_resources": [
+    {
+      "source": "shared-assets/data/processed-data/avg_citations_result.parquet",
+      "target": "shared-assets/data/processed-data/avg_citations_result.parquet"
+    },
+    {
+      "source": "shared-assets/models/scibert_uncased/scibert_bundle.zip",
+      "target": "shared-assets/models/scibert_uncased/scibert_bundle.zip"
+    },
+    {
+      "source": "semantic-change/workspace/outputs/analytical-results/models/gpt/runs/shadow_balanced_1800__gpt54_prompt_v5/annotation_labeled_1800_full_run.jsonl",
+      "target": "semantic-change/workspace/outputs/analytical-results/models/gpt/runs/shadow_balanced_1800__gpt54_prompt_v5/annotation_labeled_1800_full_run.jsonl"
+    }
+  ],
+  "repo_materialized_parquet_resources": [
+    {
+      "source": "shared-assets/data/processed-data/papers.parquet",
+      "target": "shared-assets/data/processed-data/papers.parquet",
+      "columns": [
+        "bibcode",
+        "year",
+        "doctype",
+        "abstract",
+        "citation_count",
+        "citation_count_norm",
+        "read_count",
+        "title",
+        "first_author"
+      ]
+    },
+    {
+      "source": "shared-assets/data/processed-data/paper_arxiv_classes.parquet",
+      "target": "shared-assets/data/processed-data/paper_arxiv_classes.parquet",
+      "columns": [
+        "bibcode",
+        "class_pos",
+        "arxiv_class",
+        "arxiv_category"
+      ]
+    },
+    {
+      "source": "shared-assets/data/processed-data/paper_keywords.parquet",
+      "target": "shared-assets/data/processed-data/paper_keywords.parquet",
+      "columns": [
+        "bibcode",
+        "keyword_norm"
+      ]
+    }
+  ],
+  "exported_python_lock": "workspace/config/requirements.lock.txt",
+  "repo_excluded_paths": [
+    "outputs",
+    "workspace/outputs",
+    "workspace/local/corpora",
+    "workspace/local/models",
+    "workspace/data/parquet/ADS_MAIN_FRAME_2025.parquet"
+  ],
+  "repo_excluded_bundle_paths": [
+    "shared-assets/data/processed-data"
+  ],
+  "repo_runtime_rewrite_rules": [
+    {
+      "path": "semantic-change/workspace/code/notebooks/0.0.0-master-corpus-build.ipynb",
+      "replacements": [
+        {
+          "from": "FORCE_REBUILD_MASTER = False",
+          "to": "FORCE_REBUILD_MASTER = True"
+        }
+      ]
+    },
+    {
+      "path": "semantic-change/workspace/code/notebooks/2.1.0-train-classification-model.ipynb",
+      "replacements": [
+        {
+          "from": "RUN_MODE = \"replay\"",
+          "to": "RUN_MODE = \"train\""
+        }
+      ]
+    },
+    {
+      "path": "semantic-change/workspace/code/notebooks/2.2.0-run-classification-model.ipynb",
+      "replacements": [
+        {
+          "from": "FORCE_RECLASSIFY_ALL = False",
+          "to": "FORCE_RECLASSIFY_ALL = True"
+        }
+      ]
+    },
+    {
+      "path": "semantic-change/workspace/code/notebooks/3.0.0-empirical-testing.ipynb",
+      "replacements": [
+        {
+          "from": "FORCE_RERUN = False",
+          "to": "FORCE_RERUN = True"
+        },
+        {
+          "from": "RUN = \"test\"",
+          "to": "RUN = \"final\""
+        }
+      ]
+    },
+    {
+      "path": "semantic-change/workspace/code/notebooks/3.1.0-significance-testing.ipynb",
+      "replacements": [
+        {
+          "from": "FORCE_RERUN_SIG = False",
+          "to": "FORCE_RERUN_SIG = True"
+        },
+        {
+          "from": "RUN = \"test\"",
+          "to": "RUN = \"final\""
+        }
+      ]
+    },
+    {
+      "path": "semantic-change/workspace/code/notebooks/4.0.0-collostructional-analysis.ipynb",
+      "replacements": [
+        {
+          "from": "FORCE_REBUILD_LEXICAL_SOURCE = False",
+          "to": "FORCE_REBUILD_LEXICAL_SOURCE = True"
+        },
+        {
+          "from": "FORCE_REBUILD_LEXICAL_CLASSIFIED = False",
+          "to": "FORCE_REBUILD_LEXICAL_CLASSIFIED = True"
+        },
+        {
+          "from": "FORCE_REBUILD_LEXICAL_CORPUS = False",
+          "to": "FORCE_REBUILD_LEXICAL_CORPUS = True"
+        },
+        {
+          "from": "FORCE_REBUILD_COLLOC = False",
+          "to": "FORCE_REBUILD_COLLOC = True"
+        }
+      ]
+    },
+    {
+      "path": "semantic-change/workspace/code/appendix/APDX_1.0.0-rdf-triplet-extraction-api.ipynb",
+      "replacements": [
+        {
+          "from": "RUN_MODE = 'replay'",
+          "to": "RUN_MODE = 'resume'"
+        }
+      ]
+    }
+  ]
+}

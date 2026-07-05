@@ -1,0 +1,4266 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "object",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cold dark matter",
+          "Cold Dark Matter",
+          "cold Dark Matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter"
+      },
+      {
+        "from": [
+          "cold dark matter (CDM)",
+          "Cold Dark Matter (CDM)",
+          "Cold dark matter (CDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter (CDM)"
+      },
+      {
+        "from": [
+          "non-baryonic matter",
+          "nonbaryonic matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-baryonic matter"
+      },
+      {
+        "from": [
+          "non-baryonic",
+          "nonbaryonic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-baryonic"
+      },
+      {
+        "from": [
+          "Weakly Interacting Massive Particles",
+          "weakly interacting massive particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Weakly Interacting Massive Particles"
+      },
+      {
+        "from": [
+          "particle dark matter",
+          "particle Dark Matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "particle dark matter"
+      },
+      {
+        "from": [
+          "multi-component",
+          "multicomponent"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "multi-component"
+      },
+      {
+        "from": [
+          "pseudo-scalar",
+          "pseudoscalar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudo-scalar"
+      },
+      {
+        "from": [
+          "fermionic",
+          "Fermionic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic"
+      },
+      {
+        "from": [
+          "Asymmetric Dark Matter (ADM)",
+          "asymmetric dark matter (ADM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asymmetric Dark Matter (ADM)"
+      },
+      {
+        "from": [
+          "Higgsino-like WIMPs",
+          "higgsino-like WIMPs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino-like WIMPs"
+      },
+      {
+        "from": [
+          "primordial black holes",
+          "Primordial Black Holes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes"
+      },
+      {
+        "from": [
+          "non-luminous",
+          "nonluminous"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-luminous"
+      }
+    ],
+    "description": "Mass edit cells in column object"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "object",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "Weakly-Interacting Massive Particles (WIMPs)",
+          "weakly interacting massive particles (WIMP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "weakly interacting massive particle (WIMP)",
+          "weakly interacting massive particles (WIMP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "Weakly Interacting Massive Particles",
+          "weakly interacting massive particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Weakly Interacting Massive Particles"
+      },
+      {
+        "from": [
+          "axion-like particle",
+          "axion-like particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particle"
+      },
+      {
+        "from": [
+          "keV sterile neutrino",
+          "keV sterile neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "keV sterile neutrino"
+      },
+      {
+        "from": [
+          "cold dark matter (CDM)",
+          "cold dark matter (ΛCDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter (CDM)"
+      },
+      {
+        "from": [
+          "hot dark matter",
+          "not dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hot dark matter"
+      },
+      {
+        "from": [
+          "sterile neutrino",
+          "sterile neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sterile neutrino"
+      },
+      {
+        "from": [
+          "QCD axion",
+          "QCD axions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "QCD axion"
+      },
+      {
+        "from": [
+          "fermionic particles",
+          "fermionic particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic particles"
+      },
+      {
+        "from": [
+          "weakly interacting massive particle (WIMP)",
+          "weakly interacting massive particles (WIMP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particle (WIMP)"
+      },
+      {
+        "from": [
+          "Majorana fermion",
+          "Majorana fermions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Majorana fermion"
+      },
+      {
+        "from": [
+          "Bose-Einstein condensate",
+          "Bose─Einstein condensate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bose-Einstein condensate"
+      },
+      {
+        "from": [
+          "dark photon",
+          "dark photons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dark photon"
+      },
+      {
+        "from": [
+          "neutralino",
+          "neutralinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutralino"
+      },
+      {
+        "from": [
+          "gravitino",
+          "gravitinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gravitino"
+      },
+      {
+        "from": [
+          "fuzzy axion",
+          "fuzzy axions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuzzy axion"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "Weakly-Interacting Massive Particles (WIMPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      }
+    ],
+    "description": "Mass edit cells in column object"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "object",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "X",
+          "χ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "X"
+      },
+      {
+        "from": [
+          "spin 0",
+          "spin-0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "spin 0"
+      }
+    ],
+    "description": "Mass edit cells in column object"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "object",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "weakly interacting massive particle (WIMP)",
+          "Weakly Interacting Massive Particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "self-interacting dark matter",
+          "self-interacting dark matter (SIDM)",
+          "self-interacting inelastic dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "self-interacting dark matter"
+      },
+      {
+        "from": [
+          "particles",
+          "particle specie(s)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "particles"
+      },
+      {
+        "from": [
+          "cold dark matter",
+          "cold dark matter (CDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter"
+      },
+      {
+        "from": [
+          "asteroid-mass primordial black holes",
+          "asteroid-mass primordial black holes (PBHs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes"
+      },
+      {
+        "from": [
+          "scalar singlet",
+          "singlet scalar s"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar singlet"
+      },
+      {
+        "from": [
+          "ultra-light axion-like particles",
+          "ultra-light axion-like particles (ALPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultra-light axion-like particles"
+      },
+      {
+        "from": [
+          "cold dark matter fluid",
+          "cold dark matter (CDM) fluid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter fluid"
+      },
+      {
+        "from": [
+          "right-handed neutrinos",
+          "three right-handed neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "right-handed neutrinos"
+      },
+      {
+        "from": [
+          "Dirac fermion",
+          "a Dirac fermion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dirac fermion"
+      },
+      {
+        "from": [
+          "sterile neutrino",
+          "sterile neutrino N"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sterile neutrino"
+      },
+      {
+        "from": [
+          "thermal relic",
+          "a thermal relic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "thermal relic"
+      },
+      {
+        "from": [
+          "thermally produced weakly interacting massive particles (WIMPs)",
+          "thermally produced, weakly interacting massive particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "thermally produced weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "collisionless cold dark matter particles (CDM)",
+          "collisionless dispersed dark matter particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "collisionless cold dark matter particles (CDM)"
+      },
+      {
+        "from": [
+          "warm dark matter",
+          "warm dark matter (WDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "warm dark matter"
+      },
+      {
+        "from": [
+          "fuzzy dark matter",
+          "fuzzy dark matter (FDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuzzy dark matter"
+      },
+      {
+        "from": [
+          "primordial black holes",
+          "primordial black holes (PBHs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes"
+      },
+      {
+        "from": [
+          "baryonic matter",
+          "non-baryonic matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "baryonic matter"
+      },
+      {
+        "from": [
+          "Bose-Einstein condensate",
+          "Bose-Einstein condensate (BEC)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bose-Einstein condensate"
+      },
+      {
+        "from": [
+          "real scalar",
+          "real scalar s"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "real scalar"
+      },
+      {
+        "from": [
+          "fermionic particles",
+          "fermion particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic particles"
+      },
+      {
+        "from": [
+          "fermionic singlet particles",
+          "singlet fermionic particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic singlet particles"
+      }
+    ],
+    "description": "Mass edit cells in column object"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "object",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "self-interacting",
+          "self-interacting dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "self-interacting"
+      },
+      {
+        "from": [
+          "Λ cold dark matter (ΛCDM)",
+          "cold dark matter model"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "weakly interacting massive particles (WIMPs) with a mass in the GeV to TeV range",
+          "weakly interacting particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "ultralight bosonic",
+          "ultralight bosonic particles",
+          "ultralight bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight bosonic"
+      },
+      {
+        "from": [
+          "ultra-light axion-like particles",
+          "ultra-light axions",
+          "ultralight axion",
+          "ultralight axion-like particle (ALP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultra-light axion-like particles"
+      },
+      {
+        "from": [
+          "Bose-Einstein condensate",
+          "Bose-Einstein Condensed (BEC) objects",
+          "Bose-Einstein condensate of non-interacting particles",
+          "Bose─Einstein condensation (BEC) dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bose-Einstein condensate"
+      },
+      {
+        "from": [
+          "sterile neutrino",
+          "sterile neutrino (keV-scale gauge-singlet fermion that mixes with active neutrinos)",
+          "sterile neutrinos with mass in the keV region"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sterile neutrino"
+      },
+      {
+        "from": [
+          "Dirac fermion",
+          "Dirac fermion χ",
+          "Dirac fermion χ^0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dirac fermion"
+      },
+      {
+        "from": [
+          "singlet-doublet Majorana fermion",
+          "singlet-doublet fermion",
+          "singlet-doublet fermionic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "singlet-doublet Majorana fermion"
+      },
+      {
+        "from": [
+          "a gas of weakly interacting massive particles (WIMPs)",
+          "a gas of weakly interacting particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "a gas of weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "Navarro, Frenk & White density profile",
+          "Navarro-Frenk-White (NFW) profile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Navarro, Frenk & White density profile"
+      },
+      {
+        "from": [
+          "Majorana fermion",
+          "Majorana fermion χ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Majorana fermion"
+      },
+      {
+        "from": [
+          "primordial black holes",
+          "primordial black holes (PBHs) with masses around 10<SUP>17</SUP> g"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes"
+      },
+      {
+        "from": [
+          "Proto-Globular-star-Cluster (PGC) clumps of Earth-mass primordial gas planets",
+          "proto-globularcluster (PGC) clumps of frozen Earth-mass primordial-fog-particles (PFPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Proto-Globular-star-Cluster (PGC) clumps of Earth-mass primordial gas planets"
+      },
+      {
+        "from": [
+          "neutrinos",
+          "neutrons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutrinos"
+      },
+      {
+        "from": [
+          "pseudo-Goldstone boson",
+          "pseudo-Goldstone familon bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudo-Goldstone boson"
+      },
+      {
+        "from": [
+          "fermionic particles",
+          "fermionic particle family"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic particles"
+      },
+      {
+        "from": [
+          "particles beyond the Standard Model",
+          "particles beyond the standard model of particle physics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "particles beyond the Standard Model"
+      },
+      {
+        "from": [
+          "light scalar field",
+          "light scalar field ϕ (m_ϕ ≲ eV)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "light scalar field"
+      },
+      {
+        "from": [
+          "collisionless cold dark matter particles (CDM)",
+          "collisionless cold dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "collisionless cold dark matter particles (CDM)"
+      },
+      {
+        "from": [
+          "pseudo Nambu-Goldstone boson",
+          "pseudo Nambu-Goldstone boson (pNGB) scalar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudo Nambu-Goldstone boson"
+      },
+      {
+        "from": [
+          "fuzzy dark matter",
+          "fuzzy dark matter (FDM) described by a light scalar field with mass m_B = 2.5 × 10^‒22 eV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuzzy dark matter"
+      },
+      {
+        "from": [
+          "massive neutrinos",
+          "massive neutrinos (mνi~=30-100 eV, i=μ,τ)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "massive neutrinos"
+      }
+    ],
+    "description": "Mass edit cells in column object"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "object",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lightest neutralino",
+          "lightest neutralino χ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest neutralino"
+      },
+      {
+        "from": [
+          "fermionic",
+          "fermions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic"
+      }
+    ],
+    "description": "Mass edit cells in column object"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "Weakly Interacting Massive Particles (WIMPs)",
+          "Weakly interacting massive particles (WIMPs)",
+          "WIMPs (Weakly Interacting Massive Particles)",
+          "weakly interacting massive particles (WIMPS)",
+          "Weakly Interacting Massive Particles (WIMPS)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "axion-like particles (ALPs)",
+          "axionlike particles (ALPs)",
+          "Axion-like particles (ALPs)",
+          "Axionlike particles (ALPs)",
+          "Axion-Like Particles (ALPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particles (ALPs)"
+      },
+      {
+        "from": [
+          "ultralight dark matter",
+          "Ultra-light Dark Matter",
+          "Ultralight dark matter",
+          "Ultra-light dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight dark matter"
+      },
+      {
+        "from": [
+          "weakly interacting massive particle (WIMP)",
+          "Weakly Interacting Massive Particle (WIMP)",
+          "WIMP (weakly interacting massive particle)",
+          "WIMP (Weakly Interacting Massive Particle)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particle (WIMP)"
+      },
+      {
+        "from": [
+          "WIMPs",
+          "WIMPS",
+          "Wimps",
+          "wimps"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WIMPs"
+      },
+      {
+        "from": [
+          "warm dark matter",
+          "Warm Dark Matter",
+          "Warm dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "warm dark matter"
+      },
+      {
+        "from": [
+          "binolike neutralino",
+          "Bino-like neutralino",
+          "bino-like neutralino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "binolike neutralino"
+      },
+      {
+        "from": [
+          "mirror dark matter",
+          "Mirror Dark Matter",
+          "Mirror dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mirror dark matter"
+      },
+      {
+        "from": [
+          "inelastic Dark Matter (iDM)",
+          "inelastic dark matter (IDM)",
+          "inelastic dark matter (iDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "inelastic Dark Matter (iDM)"
+      },
+      {
+        "from": [
+          "self-interacting dark matter",
+          "Self-Interacting Dark Matter",
+          "Self-interacting dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "self-interacting dark matter"
+      },
+      {
+        "from": [
+          "ultralight dark matter (ULDM)",
+          "Ultralight dark matter (ULDM)",
+          "ultra-light dark matter (ULDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight dark matter (ULDM)"
+      },
+      {
+        "from": [
+          "primordial black holes",
+          "Primordial black holes",
+          "Primordial Black Holes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes"
+      },
+      {
+        "from": [
+          "Quark Nuggets",
+          "Quark nuggets",
+          "quark nuggets"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quark Nuggets"
+      },
+      {
+        "from": [
+          "cold dark matter",
+          "Cold Dark Matter",
+          "Cold dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter"
+      },
+      {
+        "from": [
+          "Weakly Interacting Massive Particles (WIMP)",
+          "weakly interacting massive particles (WIMP)",
+          "WIMP (weakly interacting massive particles)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Weakly Interacting Massive Particles (WIMP)"
+      },
+      {
+        "from": [
+          "axion-like particle",
+          "Axion-like particle",
+          "axionlike particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particle"
+      },
+      {
+        "from": [
+          "dark photons",
+          "Dark Photons",
+          "Dark photons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dark photons"
+      },
+      {
+        "from": [
+          "axion-like particles",
+          "axionlike particles",
+          "Axion-like particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particles"
+      },
+      {
+        "from": [
+          "cold dark matter (CDM)",
+          "Cold Dark Matter (CDM)",
+          "Cold dark matter (CDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter (CDM)"
+      },
+      {
+        "from": [
+          "primordial black holes (PBHs)",
+          "Primordial black holes (PBHs)",
+          "Primordial Black Holes (PBHs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes (PBHs)"
+      },
+      {
+        "from": [
+          "fuzzy dark matter (FDM)",
+          "Fuzzy dark matter (FDM)",
+          "Fuzzy Dark Matter (FDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuzzy dark matter (FDM)"
+      },
+      {
+        "from": [
+          "WIMPZILLAs",
+          "WIMPZILLAS",
+          "Wimpzillas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WIMPZILLAs"
+      },
+      {
+        "from": [
+          "neutralino",
+          "Neutralino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutralino"
+      },
+      {
+        "from": [
+          "wino",
+          "Wino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "wino"
+      },
+      {
+        "from": [
+          "scalar field dark matter",
+          "Scalar Field Dark Matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar field dark matter"
+      },
+      {
+        "from": [
+          "Superheavy dark matter",
+          "superheavy dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Superheavy dark matter"
+      },
+      {
+        "from": [
+          "S",
+          "s"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "S"
+      },
+      {
+        "from": [
+          "MSSM neutralinos",
+          "neutralinos (MSSM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MSSM neutralinos"
+      },
+      {
+        "from": [
+          "axion quark nuggets",
+          "Axion Quark Nuggets"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion quark nuggets"
+      },
+      {
+        "from": [
+          "lightest Kaluza-Klein particle (LKP)",
+          "LKP (Lightest Kaluza-Klein particle)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest Kaluza-Klein particle (LKP)"
+      },
+      {
+        "from": [
+          "thermal relics",
+          "Thermal relics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "thermal relics"
+      },
+      {
+        "from": [
+          "axion quark nugget (AQN)",
+          "Axion Quark Nugget (AQN)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion quark nugget (AQN)"
+      },
+      {
+        "from": [
+          "Cold Dark Matter (ΛCDM)",
+          "cold dark matter (ΛCDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cold Dark Matter (ΛCDM)"
+      },
+      {
+        "from": [
+          "brown dwarfs",
+          "Brown dwarfs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "brown dwarfs"
+      },
+      {
+        "from": [
+          "boson stars",
+          "Boson stars"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "boson stars"
+      },
+      {
+        "from": [
+          "neutralinos",
+          "Neutralinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutralinos"
+      },
+      {
+        "from": [
+          "singlet fermion",
+          "fermion singlet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "singlet fermion"
+      },
+      {
+        "from": [
+          "ultra-light scalar dark matter",
+          "ultralight scalar dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultra-light scalar dark matter"
+      },
+      {
+        "from": [
+          "ψ",
+          "ψ-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ψ"
+      },
+      {
+        "from": [
+          "weakly-interacting massive particles (WIMPs)",
+          "Weakly-Interacting Massive Particles (WIMPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly-interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "fermionic dark matter",
+          "Fermionic dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic dark matter"
+      },
+      {
+        "from": [
+          "bino",
+          "b-ino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bino"
+      },
+      {
+        "from": [
+          "ultralight scalar field",
+          "ultra-light scalar field"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight scalar field"
+      },
+      {
+        "from": [
+          "glue-balls",
+          "glueballs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "glue-balls"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles",
+          "Weakly Interacting Massive Particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles"
+      },
+      {
+        "from": [
+          "scalar dark matter",
+          "Scalar dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar dark matter"
+      },
+      {
+        "from": [
+          "self-interacting bosonic dark matter",
+          "bosonic self-interacting dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "self-interacting bosonic dark matter"
+      },
+      {
+        "from": [
+          "Higgsino-like WIMP",
+          "higgsino-like WIMP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino-like WIMP"
+      },
+      {
+        "from": [
+          "Branons",
+          "branons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Branons"
+      },
+      {
+        "from": [
+          "neutralino LSP",
+          "LSP neutralino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutralino LSP"
+      },
+      {
+        "from": [
+          "Ultralight bosons",
+          "ultralight bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ultralight bosons"
+      },
+      {
+        "from": [
+          "self-interacting dark matter (SIDM)",
+          "Self-interacting dark matter (SIDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "self-interacting dark matter (SIDM)"
+      },
+      {
+        "from": [
+          "real singlet scalar",
+          "real scalar singlet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "real singlet scalar"
+      },
+      {
+        "from": [
+          "ultralight axions",
+          "Ultra-light axions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight axions"
+      },
+      {
+        "from": [
+          "Higgsino LSP",
+          "higgsino LSP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino LSP"
+      },
+      {
+        "from": [
+          "mirror matter",
+          "Mirror matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mirror matter"
+      },
+      {
+        "from": [
+          "sterile neutrinos",
+          "Sterile neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sterile neutrinos"
+      },
+      {
+        "from": [
+          "MACHOs",
+          "Machos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MACHOs"
+      },
+      {
+        "from": [
+          "Feebly Interacting Massive Particle (FIMP)",
+          "FIMP (Feebly Interacting Massive Particle)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Feebly Interacting Massive Particle (FIMP)"
+      },
+      {
+        "from": [
+          "Axion quark nuggets (AQNs)",
+          "axion quark nuggets (AQNs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Axion quark nuggets (AQNs)"
+      },
+      {
+        "from": [
+          "MACHOs (Massive Astrophysical Compact Halo Objects)",
+          "Massive Astrophysical Compact Halo Objects (MACHOs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MACHOs (Massive Astrophysical Compact Halo Objects)"
+      },
+      {
+        "from": [
+          "warm dark matter (WDM)",
+          "Warm Dark Matter (WDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "warm dark matter (WDM)"
+      },
+      {
+        "from": [
+          "Higgsino",
+          "higgsino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino"
+      },
+      {
+        "from": [
+          "lightest neutralino",
+          "lightest Neutralino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest neutralino"
+      },
+      {
+        "from": [
+          "ultralight axion-like particles (ALPs)",
+          "ultralight axionlike particles (ALPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight axion-like particles (ALPs)"
+      },
+      {
+        "from": [
+          "supersymmetry",
+          "Supersymmetry"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "supersymmetry"
+      },
+      {
+        "from": [
+          "lightest super-symmetric particles (LSP)",
+          "lightest supersymmetric particles (LSP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest super-symmetric particles (LSP)"
+      },
+      {
+        "from": [
+          "Majoron",
+          "majoron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Majoron"
+      },
+      {
+        "from": [
+          "QCD axion",
+          "QCD Axion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "QCD axion"
+      },
+      {
+        "from": [
+          "pseudoscalar",
+          "pseudo-scalar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudoscalar"
+      },
+      {
+        "from": [
+          "Sexaquark (uuddss)",
+          "sexaquark (uuddss)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sexaquark (uuddss)"
+      },
+      {
+        "from": [
+          "scalar singlet",
+          "singlet scalar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar singlet"
+      },
+      {
+        "from": [
+          "axion",
+          "Axion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion"
+      },
+      {
+        "from": [
+          "Weakly Interactive Massive Particles (WIMPs)",
+          "weakly interactive massive particles (WIMPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Weakly Interactive Massive Particles (WIMPs)"
+      },
+      {
+        "from": [
+          "super-symmetric dark matter particles",
+          "supersymmetric dark matter particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "super-symmetric dark matter particles"
+      },
+      {
+        "from": [
+          "Ultralight scalar fields",
+          "ultra-light scalar fields"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ultralight scalar fields"
+      },
+      {
+        "from": [
+          "Singlet Fermionic Dark Matter",
+          "fermionic singlet dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Singlet Fermionic Dark Matter"
+      },
+      {
+        "from": [
+          "ultralight axion",
+          "ultra-light axion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight axion"
+      },
+      {
+        "from": [
+          "H_1",
+          "h1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "H_1"
+      },
+      {
+        "from": [
+          "Generalized Chaplygin gas",
+          "generalized Chaplygin gas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Generalized Chaplygin gas"
+      },
+      {
+        "from": [
+          "Scalar field dark matter (SFDM)",
+          "scalar field dark matter (SFDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Scalar field dark matter (SFDM)"
+      },
+      {
+        "from": [
+          "Bino-dominated lightest neutralino",
+          "bino-dominated lightest neutralino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bino-dominated lightest neutralino"
+      },
+      {
+        "from": [
+          "KeV sterile neutrino",
+          "keV sterile neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "KeV sterile neutrino"
+      },
+      {
+        "from": [
+          "inert scalar doublet",
+          "scalar inert doublet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "inert scalar doublet"
+      },
+      {
+        "from": [
+          "superWIMPs",
+          "super-WIMPs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "superWIMPs"
+      },
+      {
+        "from": [
+          "axions",
+          "Axions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axions"
+      },
+      {
+        "from": [
+          "Inert Doublet Model",
+          "inert doublet model"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Inert Doublet Model"
+      },
+      {
+        "from": [
+          "lightest supersymmetric particle (LSP)",
+          "Lightest Supersymmetric Particle (LSP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest supersymmetric particle (LSP)"
+      },
+      {
+        "from": [
+          "Minimal Dark Matter (MDM)",
+          "minimal dark matter (MDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Minimal Dark Matter (MDM)"
+      },
+      {
+        "from": [
+          "fuzzy dark matter",
+          "Fuzzy Dark Matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuzzy dark matter"
+      },
+      {
+        "from": [
+          "Modified Newtonian dynamics (MOND)",
+          "modified Newtonian dynamics (MOND)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Modified Newtonian dynamics (MOND)"
+      },
+      {
+        "from": [
+          "lightest supersymmetric particle",
+          "Lightest Supersymmetric Particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest supersymmetric particle"
+      },
+      {
+        "from": [
+          "supersymmetric particles",
+          "Supersymmetric particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "supersymmetric particles"
+      },
+      {
+        "from": [
+          "keV scale sterile neutrino",
+          "sterile neutrino (keV scale)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "keV scale sterile neutrino"
+      },
+      {
+        "from": [
+          "Ultralight axionlike particles",
+          "ultralight axion-like particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ultralight axionlike particles"
+      },
+      {
+        "from": [
+          "scalar fields",
+          "Scalar fields"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar fields"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "right-handed neutrino",
+          "right-handed neutrinos",
+          "right handed neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "right-handed neutrino"
+      },
+      {
+        "from": [
+          "axion-like particle (ALP)",
+          "axion-like particles (ALP)",
+          "axion-like-particle (ALP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particle (ALP)"
+      },
+      {
+        "from": [
+          "neutrinos",
+          "neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutrinos"
+      },
+      {
+        "from": [
+          "ultralight boson",
+          "ultra light boson",
+          "ultra light bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight boson"
+      },
+      {
+        "from": [
+          "sneutrino",
+          "sneutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sneutrino"
+      },
+      {
+        "from": [
+          "axion-like particles (ALPs)",
+          "axion-like particle (ALP)",
+          "axion-like particles (ALP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particles (ALPs)"
+      },
+      {
+        "from": [
+          "neutrinos",
+          "neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutrinos"
+      },
+      {
+        "from": [
+          "Ultralight bosons",
+          "ultralight boson",
+          "ultra light boson"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ultralight bosons"
+      },
+      {
+        "from": [
+          "pseudo-Nambu-Goldstone boson",
+          "pseudo Nambu-Goldstone boson",
+          "pseudo-Nambu-Goldstone bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudo-Nambu-Goldstone boson"
+      },
+      {
+        "from": [
+          "keV sterile neutrinos",
+          "KeV sterile neutrino",
+          "KeV-sterile neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "keV sterile neutrinos"
+      },
+      {
+        "from": [
+          "right-handed sneutrino",
+          "right-handed sneutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "right-handed neutrinos"
+      },
+      {
+        "from": [
+          "wino-like LSP",
+          "wino-like LSPs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bino-like LSP"
+      },
+      {
+        "from": [
+          "weakly interacting massive particle (WIMP)",
+          "Weakly Interacting Massive Particles (WIMP)",
+          "weakly-interacting massive particle (WIMP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particle (WIMP)"
+      },
+      {
+        "from": [
+          "right-handed neutrino",
+          "right-handed neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "right-handed neutrino"
+      },
+      {
+        "from": [
+          "Ultralight bosons",
+          "ultra light boson",
+          "ultra light bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ultralight bosons"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "axion quark nugget (AQN)",
+          "Axion quark nuggets (AQNs)",
+          "axion quark nuggets (AQN)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion quark nugget (AQN)"
+      },
+      {
+        "from": [
+          "Feebly Interacting Massive Particle (FIMP)",
+          "Feebly Interacting Massive Particles (FIMP)",
+          "Feebly interacting massive particles (FIMPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Feebly Interacting Massive Particle (FIMP)"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles",
+          "weakly interacting massive particle",
+          "weakly-interacting massive particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles"
+      },
+      {
+        "from": [
+          "Axion quark nuggets (AQNs)",
+          "axion quark nuggets (AQN)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Axion quark nuggets (AQNs)"
+      },
+      {
+        "from": [
+          "axion-like particles",
+          "axion-like particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particles"
+      },
+      {
+        "from": [
+          "Higgs portal dark matter",
+          "Higgs-portal dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgs portal dark matter"
+      },
+      {
+        "from": [
+          "scalar A",
+          "scalar ϕ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar A"
+      },
+      {
+        "from": [
+          "Majorana fermion",
+          "Majorana fermions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Majorana fermion"
+      },
+      {
+        "from": [
+          "primordial black holes (PBHs)",
+          "Primordial Black Holes (PBH)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes (PBHs)"
+      },
+      {
+        "from": [
+          "millicharged particles",
+          "millicharged particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "millicharged particles"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "weakly-interacting massive particles (WIMPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "dark Dirac fermion",
+          "dark Dirac fermions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dark Dirac fermion"
+      },
+      {
+        "from": [
+          "massive photon",
+          "massive photons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "massive photon"
+      },
+      {
+        "from": [
+          "Majorana neutrinos",
+          "Majorana neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Majorana neutrinos"
+      },
+      {
+        "from": [
+          "ultracompact minihaloes",
+          "ultracompact minihalos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultracompact minihaloes"
+      },
+      {
+        "from": [
+          "axion-like particles (ALPs)",
+          "Axion Like Particles (ALPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particles (ALPs)"
+      },
+      {
+        "from": [
+          "ultralight scalar",
+          "Ultralight scalars"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight scalar"
+      },
+      {
+        "from": [
+          "vector field",
+          "vector fields"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vector field"
+      },
+      {
+        "from": [
+          "low mass WIMPs",
+          "low-mass WIMPs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "low mass WIMPs"
+      },
+      {
+        "from": [
+          "dark fermions",
+          "dark fermion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dark fermions"
+      },
+      {
+        "from": [
+          "relic neutralino",
+          "relic neutralinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "relic neutralino"
+      },
+      {
+        "from": [
+          "Weakly Interactive Massive Particles (WIMPs)",
+          "Weakly Interactive Massive Particles (WIMP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Weakly Interactive Massive Particles (WIMPs)"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles",
+          "weakly-interacting massive particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles"
+      },
+      {
+        "from": [
+          "QCD axion",
+          "QCD axions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "QCD axion"
+      },
+      {
+        "from": [
+          "fermionic particle",
+          "fermionic particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic particle"
+      },
+      {
+        "from": [
+          "singlet Majorana neutrino",
+          "singlet Majorana neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "singlet Majorana neutrino"
+      },
+      {
+        "from": [
+          "vector boson",
+          "vector bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vector boson"
+      },
+      {
+        "from": [
+          "WIMPZILLAs",
+          "wimpzilla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WIMPZILLAs"
+      },
+      {
+        "from": [
+          "scalar",
+          "scalars"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar"
+      },
+      {
+        "from": [
+          "bosonic dark matter candidate",
+          "bosonic dark matter candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bosonic dark matter candidate"
+      },
+      {
+        "from": [
+          "fermion f",
+          "fermion χ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermion f"
+      },
+      {
+        "from": [
+          "Dirac fermion",
+          "Dirac fermions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dirac fermion"
+      },
+      {
+        "from": [
+          "Superheavy dark matter",
+          "Super Heavy Dark Matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Superheavy dark matter"
+      },
+      {
+        "from": [
+          "pseudoscalar",
+          "pseudoscalars"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudoscalar"
+      },
+      {
+        "from": [
+          "dark matter candidates",
+          "dark-matter candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dark matter candidates"
+      },
+      {
+        "from": [
+          "neutralino",
+          "neutralinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutralino"
+      },
+      {
+        "from": [
+          "Majorana particle",
+          "Majorana particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Majorana particle"
+      },
+      {
+        "from": [
+          "fermionic candidate",
+          "fermionic candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic candidate"
+      },
+      {
+        "from": [
+          "skyrmion",
+          "skyrmions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "skyrmion"
+      },
+      {
+        "from": [
+          "ultralight scalar field",
+          "Ultralight scalar fields"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight scalar field"
+      },
+      {
+        "from": [
+          "scalar field",
+          "scalar fields"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar field"
+      },
+      {
+        "from": [
+          "lightest neutralino",
+          "lightest neutralinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest neutralino"
+      },
+      {
+        "from": [
+          "right-handed neutrino",
+          "right-handed neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "right-handed neutrino"
+      },
+      {
+        "from": [
+          "/X fermion",
+          "/Y fermion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "/X fermion"
+      },
+      {
+        "from": [
+          "keV-mass sterile neutrino",
+          "keV-mass sterile neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "keV-mass sterile neutrino"
+      },
+      {
+        "from": [
+          "spin 1/2 dark matter",
+          "spin-1/2 dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "spin 1/2 dark matter"
+      },
+      {
+        "from": [
+          "ultralight axion",
+          "ultralight axions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight axion"
+      },
+      {
+        "from": [
+          "Higgsino-like WIMP",
+          "higgsino-like WIMPs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino-like WIMP"
+      },
+      {
+        "from": [
+          "tau neutrino",
+          "tau neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tau neutrino"
+      },
+      {
+        "from": [
+          "Feebly Interacting Massive Particle (FIMP)",
+          "Feebly Interacting Massive Particles (FIMP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Feebly Interacting Massive Particle (FIMP)"
+      },
+      {
+        "from": [
+          "fermionic dark matter candidate",
+          "fermionic dark matter candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic dark matter candidate"
+      },
+      {
+        "from": [
+          "SUSY WIMP",
+          "SUSY WIMPS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUSY WIMP"
+      },
+      {
+        "from": [
+          "Bose-Einstein condensate",
+          "Bose-Einstein condensates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bose-Einstein condensate"
+      },
+      {
+        "from": [
+          "bino-dominated neutralino",
+          "wino-dominated neutralino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bino-dominated neutralino"
+      },
+      {
+        "from": [
+          "Ultralight-axion (ULA)",
+          "ultralight axion (ULA)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ultralight-axion (ULA)"
+      },
+      {
+        "from": [
+          "supersymmetric particles",
+          "supersymmetric particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "supersymmetric particles"
+      },
+      {
+        "from": [
+          "scalar WIMP",
+          "scalar WIMPs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar WIMP"
+      },
+      {
+        "from": [
+          "sterile neutrinos",
+          "sterile neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sterile neutrinos"
+      },
+      {
+        "from": [
+          "spin-1 particle",
+          "spin-0 particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "spin-1 particle"
+      },
+      {
+        "from": [
+          "bosonic particles",
+          "bosonic particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bosonic particles"
+      },
+      {
+        "from": [
+          "Majoron",
+          "Majorons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Majoron"
+      },
+      {
+        "from": [
+          "asteroid-mass primordial black holes (PBHs)",
+          "asteroid mass primordial black holes (PBHs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "asteroid-mass primordial black holes (PBHs)"
+      },
+      {
+        "from": [
+          "hidden-sector particles",
+          "hidden sector particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hidden-sector particles"
+      },
+      {
+        "from": [
+          "lightest supersymmetric particle",
+          "lightest supersymmetric particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest supersymmetric particle"
+      },
+      {
+        "from": [
+          "Higgsino",
+          "Higgsinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino"
+      },
+      {
+        "from": [
+          "heavy neutrino",
+          "heavy neutrinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "heavy neutrino"
+      },
+      {
+        "from": [
+          "elementary particle",
+          "elementary particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "elementary particle"
+      },
+      {
+        "from": [
+          "axion fuzzy dark matter (FDM) with m_FDM = 10^-23 eV",
+          "axion fuzzy dark matter (FDM) with m_FDM = 10^-26 eV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion fuzzy dark matter (FDM) with m_FDM = 10^-23 eV"
+      },
+      {
+        "from": [
+          "dark photon",
+          "dark photons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dark photon"
+      },
+      {
+        "from": [
+          "WIMP-like particles",
+          "WIMP-like particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WIMP-like particles"
+      },
+      {
+        "from": [
+          "dark baryon",
+          "dark baryons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dark baryon"
+      },
+      {
+        "from": [
+          "Higgsino LSP",
+          "higgsino-LSP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino LSP"
+      },
+      {
+        "from": [
+          "7 keV sterile neutrino",
+          "∼7 keV sterile neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7 keV sterile neutrino"
+      },
+      {
+        "from": [
+          "Higgs portal",
+          "Higgs portals"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgs portal"
+      },
+      {
+        "from": [
+          "ultralight axion-like particles (ALPs)",
+          "Ultralight axion like particles (ALPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight axion-like particles (ALPs)"
+      },
+      {
+        "from": [
+          "weakly interacting dark matter candidates",
+          "weakly interacting dark-matter candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting dark matter candidates"
+      },
+      {
+        "from": [
+          "Singlino LSPs",
+          "singlino LSP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Singlino LSPs"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles",
+          "weakly interacting massive particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles"
+      },
+      {
+        "from": [
+          "Feebly Interacting Massive Particles (FIMP)",
+          "Feebly interacting massive particles (FIMPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Feebly Interacting Massive Particles (FIMP)"
+      },
+      {
+        "from": [
+          "singlet scalar boson",
+          "singlet scalar bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "singlet scalar boson"
+      },
+      {
+        "from": [
+          "dark glueball",
+          "dark glueballs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dark glueball"
+      },
+      {
+        "from": [
+          "techni-dilaton",
+          "techni-dilatons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "techni-dilaton"
+      },
+      {
+        "from": [
+          "particles",
+          "particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "particles"
+      },
+      {
+        "from": [
+          "/X scalar",
+          "/Y scalar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "/X scalar"
+      },
+      {
+        "from": [
+          "thermal relics",
+          "thermal relic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "thermal relics"
+      },
+      {
+        "from": [
+          "lightest neutralino (χ^0_1)",
+          "lightest neutralino (χ∼0_1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest neutralino (χ^0_1)"
+      },
+      {
+        "from": [
+          "ultralight dark matter",
+          "Ultra light dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight dark matter"
+      },
+      {
+        "from": [
+          "bosonic candidate",
+          "bosonic candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bosonic candidate"
+      },
+      {
+        "from": [
+          "Branons",
+          "branon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Branons"
+      },
+      {
+        "from": [
+          "exotic fermions",
+          "exotic fermion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "exotic fermions"
+      },
+      {
+        "from": [
+          "gravitino",
+          "gravitinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gravitino"
+      },
+      {
+        "from": [
+          "cold dark matter (CDM)",
+          "Cold Dark Matter (ΛCDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter (CDM)"
+      },
+      {
+        "from": [
+          "Quark Nuggets",
+          "quark nugget"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quark Nuggets"
+      },
+      {
+        "from": [
+          "lightest right-handed neutrino",
+          "lightest right-handed sneutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest right-handed neutrino"
+      },
+      {
+        "from": [
+          "light WIMPs",
+          "light WIMP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "light WIMPs"
+      },
+      {
+        "from": [
+          "scalar particle",
+          "scalar particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar particle"
+      },
+      {
+        "from": [
+          "hidden sector",
+          "hidden sectors"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hidden sector"
+      },
+      {
+        "from": [
+          "axion quark nugget (AQN)",
+          "axion quark nuggets (AQN)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion quark nugget (AQN)"
+      },
+      {
+        "from": [
+          "Warm Dark Matter (WDM) particle",
+          "warm dark matter (WDM) particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Warm Dark Matter (WDM) particle"
+      },
+      {
+        "from": [
+          "fermion",
+          "fermions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermion"
+      },
+      {
+        "from": [
+          "Goldstone boson",
+          "Goldstone bosons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Goldstone boson"
+      },
+      {
+        "from": [
+          "axino LSP",
+          "axino NLSP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axino LSP"
+      },
+      {
+        "from": [
+          "dilaton",
+          "dilatons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dilaton"
+      },
+      {
+        "from": [
+          "Higgsino dominated neutralino",
+          "higgsino-dominated neutralino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino dominated neutralino"
+      },
+      {
+        "from": [
+          "vector",
+          "vectors"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vector"
+      },
+      {
+        "from": [
+          "B<SUP>1</SUP>",
+          "G<SUP>1</SUP>"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "B<SUP>1</SUP>"
+      },
+      {
+        "from": [
+          "pseudo-Nambu-Goldstone boson (pNG)",
+          "pseudo-Nambu-Goldstone boson (pNGB)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudo-Nambu-Goldstone boson (pNG)"
+      },
+      {
+        "from": [
+          "thermal WIMP",
+          "thermal WIMPs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "thermal WIMP"
+      },
+      {
+        "from": [
+          "light gravitino",
+          "light gravitinos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "light gravitino"
+      },
+      {
+        "from": [
+          "hidden photon",
+          "hidden photons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hidden photon"
+      },
+      {
+        "from": [
+          "superWIMPs",
+          "SuperWIMP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "superWIMPs"
+      },
+      {
+        "from": [
+          "fundamental scalar",
+          "fundamental scalars"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fundamental scalar"
+      },
+      {
+        "from": [
+          "singlet fermion",
+          "singlet fermions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "singlet fermion"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ψDM",
+          "ψ DM"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ψDM"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lightest supersymmetric particle (LSP)",
+          "lightest supersymmetric particle",
+          "lightest super-symmetric particles (LSP)",
+          "relic lightest supersymmetric particles",
+          "the lightest supersymmetric particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest supersymmetric particle (LSP)"
+      },
+      {
+        "from": [
+          "pseudo-Nambu-Goldstone boson",
+          "pseudo-Nambu-Goldstone boson (pNG)",
+          "pseudo-Nambu-Goldstone Boson (pNGB) states",
+          "pseudo-Nambu-Goldstone bosons (pNGBs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudo-Nambu-Goldstone boson"
+      },
+      {
+        "from": [
+          "axion-like particles",
+          "axion-like particles (ALPs)",
+          "Axions or axion-like particles (ALPs)",
+          "Axions or axion-like particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particles"
+      },
+      {
+        "from": [
+          "Light-mass primordial black holes",
+          "light asteroid-mass primordial black holes",
+          "light primordial black holes",
+          "light primordial black holes (PBHs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Light-mass primordial black holes"
+      },
+      {
+        "from": [
+          "lightest Kaluza-Klein particle (LKP)",
+          "lightest Kaluza-Klein (KK) particle",
+          "lightest Kaluza-Klein particle",
+          "Light Kaluza-Klein Particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaluza-Klein particle"
+      },
+      {
+        "from": [
+          "Bose-Einstein condensate",
+          "Bose--Einstein condensation",
+          "Bose-Einstein condensate (BEC)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bose-Einstein condensate"
+      },
+      {
+        "from": [
+          "scalar singlet",
+          "real singlet scalar",
+          "singlet-scalar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar singlet"
+      },
+      {
+        "from": [
+          "right-handed neutrino",
+          "right-handed neutrino (RHN)",
+          "third-generation right-handed neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "right-handed neutrino"
+      },
+      {
+        "from": [
+          "scalar field dark matter",
+          "Scalar field dark matter (SFDM)",
+          "scalar dark matter fields"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar field dark matter"
+      },
+      {
+        "from": [
+          "fermionic dark matter",
+          "fermionic dark matter candidate",
+          "fermion dark matter candidate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic dark matter"
+      },
+      {
+        "from": [
+          "primordial black holes",
+          "primordial black holes (PBHs)",
+          "halo-dressed primordial black holes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes"
+      },
+      {
+        "from": [
+          "Lightest SuperParticle",
+          "lightest-superparticle (LSP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lightest SuperParticle"
+      },
+      {
+        "from": [
+          "MSSM neutralinos",
+          "NMSSM neutralino",
+          "neutralino (MSSM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MSSM neutralinos"
+      },
+      {
+        "from": [
+          "Quark Nuggets",
+          "Strange Quark Nuggets",
+          "strange quark nuggets (SQNs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quark Nuggets"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "weakly interacting massive particle (WIMP)",
+          "weakly interacting massive particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "asteroid-mass primordial black holes",
+          "asteroid-mass primordial black holes (PBHs)",
+          "stellar mass primordial black holes"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "asteroid-mass primordial black holes"
+      },
+      {
+        "from": [
+          "Light weakly interacting massive particles (WIMPs)",
+          "light weakly interacting massive particle (WIMP)",
+          "vanilla weakly-interacting-massive-particle-like thermal relic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Light weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "Ultralight axionlike particles",
+          "ultralight axion-like particles (ALPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ultralight axionlike particles"
+      },
+      {
+        "from": [
+          "hidden sector dark matter",
+          "hidden sector dark matter candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hidden sector dark matter"
+      },
+      {
+        "from": [
+          "ultralight bosonic dark matter",
+          "ultralight bosonic dark matter (ULBDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight bosonic dark matter"
+      },
+      {
+        "from": [
+          "Heavy Dark Matter (HDM)",
+          "heavy dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Heavy Dark Matter (HDM)"
+      },
+      {
+        "from": [
+          "O-helium (OHe)",
+          "O-helium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "O-helium (OHe)"
+      },
+      {
+        "from": [
+          "supersymmetric DM candidates",
+          "supersymmetric candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "supersymmetric DM candidates"
+      },
+      {
+        "from": [
+          "Weakly Interacting Particles (WIMPs)",
+          "Weakly-Interacting Slim Particles (WISPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Weakly Interacting Particles (WIMPs)"
+      },
+      {
+        "from": [
+          "Modified Chaplygin Gas (MCG)",
+          "Modified Chaplygin gas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Modified Chaplygin Gas (MCG)"
+      },
+      {
+        "from": [
+          "Minimal Dark Matter (MDM)",
+          "minimal dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Minimal Dark Matter (MDM)"
+      },
+      {
+        "from": [
+          "Inert Doublet Model",
+          "Inert Doublet Model (IDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Inert Doublet Model"
+      },
+      {
+        "from": [
+          "composite dark matter",
+          "macroscopic dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "composite dark matter"
+      },
+      {
+        "from": [
+          "supersymmetry",
+          "Supersymmetry (SUSY)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "supersymmetry"
+      },
+      {
+        "from": [
+          "dipolar dark matter (DDM)",
+          "Dipolar dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dipolar dark matter (DDM)"
+      },
+      {
+        "from": [
+          "LSP",
+          "LSPs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LSP"
+      },
+      {
+        "from": [
+          "mixed dark matter",
+          "Mixed Dark Matter (MDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mixed dark matter"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "low-mass weakly interacting massive particle",
+          "low-mass weakly interacting massive particles (WIMPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "low-mass weakly interacting massive particle"
+      },
+      {
+        "from": [
+          "WISPs",
+          "WISP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WISPs"
+      },
+      {
+        "from": [
+          "warm dark matter",
+          "warm dark matter (WDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "warm dark matter"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Feebly Interacting Massive Particle (FIMP)",
+          "Feebly Interacting Massive Particles (FIMP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Feebly Interacting Massive Particle (FIMP)"
+      },
+      {
+        "from": [
+          "Kaluza-Klein particle",
+          "Kaluza-Klein particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kaluza-Klein particle"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "primordial black holes",
+          "Primordial Planck mass black holes (PPMBHs)",
+          "primordial black hole remnants",
+          "primordial black holes (10<SUP>‒17</SUP>‒ 10<SUP>‒13</SUP> solar mass)",
+          "primordial black holes (10^4 g ≲ M ≲ 10^10 g)",
+          "primordial black holes (M ≃ 10−13 M⊙)",
+          "primordial black holes (M ≃ 10−2 M⊙)",
+          "primordial black holes (PBH) with masses of 10^25 g ≳ m ≳ 10^17 g",
+          "primordial black holes (PBHs) heavier than ~10^15 g",
+          "primordial black holes (PBHs) in compact clusters",
+          "primordial black holes (PBHs) lighter than ~10^9 g",
+          "primordial black holes (PBHs) with mass 10^-12 M☉",
+          "primordial black holes (PBHs) with mass ≥ 10^7 M_{}",
+          "primordial black holes (asteroid mass range)",
+          "primordial black holes formed through critical collapse",
+          "primordial black holes lighter than ∼ 10^-18 M⊙",
+          "primordial black holes of asteroid-scale masses",
+          "primordial black holes with mass MPBH ≃ 10^21",
+          "primordial black holes with mass O(10^-12) M☉"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "primordial black holes"
+      },
+      {
+        "from": [
+          "lightest neutralino",
+          "lightest neutralino (χ^0_1)",
+          "lightest neutralino (LSP)",
+          "lightest neutralino (Z1)",
+          "lightest neutralino (\\tilde{\\chi}_{1}^{0})",
+          "lightest neutralino (χ)",
+          "lightest neutralino in supersymmetry",
+          "lightest neutralino {tilde{χ}}_1^0",
+          "lightest neutralino χ~1^0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lightest neutralino"
+      },
+      {
+        "from": [
+          "sterile neutrinos",
+          "sterile neutrino (7 keV, L6 = 8.7)",
+          "sterile neutrino (~7 keV)",
+          "sterile neutrino (νMSM)",
+          "sterile neutrino produced through the Shi-Fuller mechanism",
+          "sterile neutrino with a keV-scale mass",
+          "sterile neutrinos (produced resonantly or nonresonantly)",
+          "sterile neutrinos (resonantly produced)",
+          "sterile neutrinos generated by active-sterile neutrino transitions",
+          "sterile neutrinos produced via non-resonant mixing with the active neutrinos (NRP)",
+          "sterile neutrinos resonantly produced in the presence of lepton asymmetry",
+          "sterile neutrinos with keV masses",
+          "sterile neutrinos with secret interactions mediated by a gauge boson X (M_X ~ 0.1 MeV, g_X ~ 10^-1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sterile neutrinos"
+      },
+      {
+        "from": [
+          "supersymmetric dark matter candidates",
+          "super-symmetric dark matter particles",
+          "supersymmetric DM candidates",
+          "supersymmetric cold dark matter particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "supersymmetric particles"
+      },
+      {
+        "from": [
+          "self-interacting dark matter",
+          "self-interacting dark matter (SIDM)",
+          "self-interacting cold dark matter",
+          "self-interacting cold dark matter particles",
+          "self-interacting dark matter (SIDM) with m\\gtrsim 10^{-2}\\; {\\rm eV}"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "self-interacting dark matter"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles (WIMPs)",
+          "Weakly Interactive Massive Particles (WIMPs)",
+          "Weakly Interacting Particles (WIMPs)",
+          "weakly interacting dark matter candidates",
+          "Weakly Interacting Particle (WIMP)",
+          "weakly interacting particle",
+          "weakly interacting right-handed neutrino",
+          "weakly interacting species",
+          "weakly-interacting dark matter candidate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (WIMPs)"
+      },
+      {
+        "from": [
+          "warm dark matter",
+          "Warm Dark Matter (WDM) particle",
+          "warm dark matter decaying non-relativistically to invisible radiation",
+          "warm dark matter models",
+          "warm dark matter particle",
+          "warm dark matter particle (m > 0.96 keV)",
+          "warm dark matter particle (m ≈ 1-2 keV)",
+          "warm dark matter-like model"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "warm dark matter"
+      },
+      {
+        "from": [
+          "millicharged dark fermions",
+          "millicharged dark matter",
+          "millicharged dark matter (mDM)",
+          "millicharged dark matter particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "millicharged dark fermions"
+      },
+      {
+        "from": [
+          "scalar dark matter",
+          "scalar dark matter particle",
+          "scalar dark matter candidate",
+          "scalar dark matter that couples to the Higgs boson"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar dark matter"
+      },
+      {
+        "from": [
+          "ultralight dark matter",
+          "ultralight dark matter (ULDM)",
+          "ultralight dark matter candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight dark matter"
+      },
+      {
+        "from": [
+          "light dark matter",
+          "light dark matter particles",
+          "light dark matter candidates",
+          "light dark matter particles (1-100 MeV)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "light dark matter"
+      },
+      {
+        "from": [
+          "axion quark nugget (AQN)",
+          "axion quark nuggets",
+          "Axion quark nuggets (AQNs)",
+          "axion quark nuggets model"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion quark nugget (AQN)"
+      },
+      {
+        "from": [
+          "cold dark matter",
+          "cold dark matter (CDM)",
+          "cold dark matter (CDM) particles",
+          "Λ Cold Dark Matter (ΛCDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cold dark matter"
+      },
+      {
+        "from": [
+          "Superheavy dark matter",
+          "super-heavy dark matter particles",
+          "superheavy dark matter particles (SHDM, $ϕ$)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Superheavy dark matter"
+      },
+      {
+        "from": [
+          "axion (m ≃ 10^-20 eV)",
+          "axion (m ≃ 2.3 × 10^-6 eV)",
+          "axion (m ≳ 0.5 × 10^-18 eV)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion (m ≃ 10^-20 eV)"
+      },
+      {
+        "from": [
+          "gauge singlet scalar",
+          "gauge singlet scalar S"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gauge singlet scalar"
+      },
+      {
+        "from": [
+          "Majorana fermion",
+          "Majorana fermion ψ",
+          "Majorana fermionic 5-plet"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Majorana fermion"
+      },
+      {
+        "from": [
+          "thermal warm dark matter (WDM) particle",
+          "thermal warm dark matter candidates",
+          "thermal warm dark matter particle (mχ c2 = 3 keV)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "thermal warm dark matter (WDM) particle"
+      },
+      {
+        "from": [
+          "fuzzy dark matter",
+          "fuzzy dark matter (FDM)",
+          "fuzzy dark matter QCD axion"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fuzzy dark matter"
+      },
+      {
+        "from": [
+          "Asymmetric dark matter",
+          "asymmetric dark matter candidate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asymmetric dark matter"
+      },
+      {
+        "from": [
+          "non-cold dark matter (NCDM)",
+          "non-cold dark matter particles",
+          "noncold dark matter candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-cold dark matter (NCDM)"
+      },
+      {
+        "from": [
+          "ultra-light particles",
+          "ultralight particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultra-light particles"
+      },
+      {
+        "from": [
+          "massive compact halo objects (MACHOs)",
+          "Massive Compact Halo Objects"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "massive compact halo objects (MACHOs)"
+      },
+      {
+        "from": [
+          "axion-like particles",
+          "axion-like particle (ALP)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particles"
+      },
+      {
+        "from": [
+          "non-baryonic matter",
+          "non-baryonic matter (like WIMPs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-baryonic matter"
+      },
+      {
+        "from": [
+          "WIMPs",
+          "WIMPs χ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WIMP"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ultralight axion",
+          "Ultralight axionlike particles",
+          "Ultralight-axion (ULA)",
+          "ultralight axion (m ≃ 10^-22 eV)",
+          "ultralight axions (ULAs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight axion"
+      },
+      {
+        "from": [
+          "massive black holes",
+          "massive black holes (MBHs)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "massive black holes"
+      },
+      {
+        "from": [
+          "mixed dark matter",
+          "mixed dark matter models"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mixed dark matter"
+      },
+      {
+        "from": [
+          "asteroid-mass primordial black holes",
+          "asteroid-mass PBHs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "asteroid-mass primordial black holes"
+      },
+      {
+        "from": [
+          "scalar neutrino",
+          "scalar neutrino ν∼<SUB>L</SUB>"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar neutrino"
+      },
+      {
+        "from": [
+          "Higgsino neutralino",
+          "higgsino (neutral component)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgsino neutralino"
+      },
+      {
+        "from": [
+          "pseudo-Dirac dark matter",
+          "pseudo-Dirac dark matter candidate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudo-Dirac dark matter"
+      },
+      {
+        "from": [
+          "vector dark matter",
+          "vector dark matter (VDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vector dark matter"
+      },
+      {
+        "from": [
+          "scalar singlet",
+          "scalar singlet WIMP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar singlet"
+      },
+      {
+        "from": [
+          "compact objects",
+          "compact objects formed in the early universe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "compact objects"
+      },
+      {
+        "from": [
+          "cosmions",
+          "cosmons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cosmions"
+      },
+      {
+        "from": [
+          "annihilating dark matter candidate",
+          "annihilating dark matter particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "annihilating dark matter candidate"
+      },
+      {
+        "from": [
+          "wave dark matter",
+          "wave dark matter (ψDM)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "wave dark matter"
+      },
+      {
+        "from": [
+          "non-thermal sterile neutrinos",
+          "nonthermal sterile neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-thermal sterile neutrinos"
+      },
+      {
+        "from": [
+          "pseudo-Dirac fermion",
+          "pseudo-Dirac fermions χ1 and χ2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pseudo-Dirac fermion"
+      },
+      {
+        "from": [
+          "WIMPs with mχ > 5 GeV",
+          "WIMPs with m∼100GeV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WIMPs"
+      },
+      {
+        "from": [
+          "right-handed neutrino",
+          "right-handed neutrino DM"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "right-handed neutrino"
+      },
+      {
+        "from": [
+          "Dirac fermion",
+          "dark fermion χ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dirac fermion"
+      },
+      {
+        "from": [
+          "scalar",
+          "scalar A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar"
+      },
+      {
+        "from": [
+          "Lambda Cold Dark Matter (LCDM)",
+          "Lamda cold dark matter paradigm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lambda Cold Dark Matter (LCDM)"
+      },
+      {
+        "from": [
+          "elementary particle",
+          "elementary particles with mass <<< 30 eV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "elementary particle"
+      },
+      {
+        "from": [
+          "scalar field",
+          "scalar field ϕ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar field"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ultralight scalar",
+          "ultralight scalar ϕ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultralight scalar"
+      },
+      {
+        "from": [
+          "7 keV sterile neutrino",
+          "7.1 keV sterile neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7 keV sterile neutrino"
+      },
+      {
+        "from": [
+          "complex scalar field",
+          "complex scalar field ϕ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "complex scalar field"
+      },
+      {
+        "from": [
+          "scalar particle",
+          "scalar particle σ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar particle"
+      },
+      {
+        "from": [
+          "neutralino",
+          "neutralino χ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutralino"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "axion-like particles",
+          "axion-like elementary particles",
+          "axionlike",
+          "axionlike cloud",
+          "axionlike dark matter",
+          "axionlike scalar field",
+          "axionlike spin-mass coupling"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "axion-like particles"
+      },
+      {
+        "from": [
+          "gauge singlet",
+          "gauge singlet scalar",
+          "gauge singlet Dirac fermion",
+          "gauge singlet fermion",
+          "gauge-singlet Z2-symmetric scalar field"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gauge singlet"
+      },
+      {
+        "from": [
+          "collisionless cold dark matter (CDM)",
+          "collisionless dark matter",
+          "collisionless matter",
+          "collisionless particles of 1-3 keV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "collisionless cold dark matter (CDM)"
+      },
+      {
+        "from": [
+          "non-baryonic matter",
+          "non-baryonic",
+          "non-baryonic dark matter candidates",
+          "nonbaryonic hot dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "non-baryonic matter"
+      },
+      {
+        "from": [
+          "QCD axion",
+          "QCD axion (m_a ~ 10^{-22} eV)",
+          "QCD axion models",
+          "QCD axions with meV mass"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "QCD axion"
+      },
+      {
+        "from": [
+          "massive vector boson",
+          "massive vector boson V",
+          "massive vector bosons with nonzero dark isospin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "massive vector boson"
+      },
+      {
+        "from": [
+          "Higgs portal",
+          "Higgs portal dark matter",
+          "Higgs-portal DM candidate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higgs portal"
+      },
+      {
+        "from": [
+          "keV-scale sterile neutrinos",
+          "keV scale sterile neutrino",
+          "keV-scaled sterile neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "keV-scale sterile neutrinos"
+      },
+      {
+        "from": [
+          "Feebly Interacting Massive Particle (FIMP)",
+          "feebly interacting matter trapped inside the Earth",
+          "feebly interacting particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Feebly Interacting Massive Particle (FIMP)"
+      },
+      {
+        "from": [
+          "light bosonic scalars",
+          "light bosons",
+          "light bosons (mass < ~10 eV)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "light bosonic scalars"
+      },
+      {
+        "from": [
+          "superWIMPs",
+          "super-WIMP (superweakly interacting particles)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "superWIMPs"
+      },
+      {
+        "from": [
+          "Dynamical dark matter (DDM) ensemble",
+          "dynamical dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dynamical dark matter (DDM) ensemble"
+      },
+      {
+        "from": [
+          "Very light right-handed (RH) sneutrinos",
+          "very light dark matter candidates"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Very light right-handed (RH) sneutrinos"
+      },
+      {
+        "from": [
+          "warm dark matter",
+          "Λ warm dark matter (ΛWDM), realized by collisionless particles of 1-3 keV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "warm dark matter"
+      },
+      {
+        "from": [
+          "minicharged dark matter",
+          "minicharged particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "minicharged dark matter"
+      },
+      {
+        "from": [
+          "keV sterile neutrinos",
+          "7 keV sterile neutrino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "keV sterile neutrinos"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column subject using expression value.toLowercase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "inelastic dark matter",
+          "inelastic dark matter (idm)",
+          "scalar inelastic dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "inelastic dark matter"
+      },
+      {
+        "from": [
+          "bosonic dark matter candidate",
+          "bosonic dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "bosonic dark matter candidate"
+      },
+      {
+        "from": [
+          "strange quark matter",
+          "strange quark matter nuggets"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "strange quark matter"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "fermion",
+          "fermion f",
+          "fermionic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermion"
+      },
+      {
+        "from": [
+          "glue-balls",
+          "glueball"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "glue-balls"
+      },
+      {
+        "from": [
+          "fermionic dark matter",
+          "fermion dark matter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic dark matter"
+      },
+      {
+        "from": [
+          "ultra-light dilatons",
+          "ultralight dilaton"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultra-light dilatons"
+      },
+      {
+        "from": [
+          "fermionic particle",
+          "fermion particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fermionic particle"
+      },
+      {
+        "from": [
+          "ultra-light hidden photon",
+          "ultralight hidden photons"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ultra-light hidden photon"
+      }
+    ],
+    "description": "Mass edit cells in column subject"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "object",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column object using expression value.toLowercase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "object",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "particle dark matter",
+          "dark matter particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "particle dark matter"
+      },
+      {
+        "from": [
+          "neutralino",
+          "neutralino x"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "neutralino"
+      },
+      {
+        "from": [
+          "weakly interacting massive particles (wimps)",
+          "a gas of weakly interacting massive particles (wimps)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "weakly interacting massive particles (wimps)"
+      },
+      {
+        "from": [
+          "vector dm particles",
+          "vector particle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "vector dm particles"
+      },
+      {
+        "from": [
+          "scalar dm particles",
+          "scalar particles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "scalar dm particles"
+      }
+    ],
+    "description": "Mass edit cells in column object"
+  }
+]

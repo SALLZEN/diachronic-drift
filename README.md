@@ -1,0 +1,45 @@
+# Repository pipe-line for _The Diachronic Drift of ‘Dark Matter’: Theory Change, Semantic Stability, and the Construction of Continuity in Scientific Practice_
+
+This directory is a self-contained code-replication bundle for designed for a user who starts with this bundle alone and needs to set up the local environments and rebuild the required computational assets. Runtime defaults are rewritten toward recomputation for rebuildable stages; only the explicit repo-mode exceptions remain pre-materialized.
+
+## Layout
+
+- `semantic-change/`: exported computational project directory
+- `shared-assets/`: vendored subset of the shared dependency layer
+- `manifest.resolved.json`: resolved provenance record for this bundle
+- `.venv/`: local Python environment created on demand
+- `bootstrap_python_env.sh`: create the local Python environment from the exported lock file
+- `install_repo_kernel.sh`: optional Jupyter kernel registration for this bundle
+- `configure_repo.sh`: one-command setup for Python, Jupyter, R, and repo prerequisites
+
+## Setup And Rebuild
+
+1. Read `semantic-change/README.md` first.
+2. From the bundle root, run `./configure_repo.sh`.
+   This single script bootstraps the local Python environment, installs the bundle-local Jupyter kernel, restores the R environment with `renv`, and materializes the declared repo prerequisites.
+   If `python3` resolves to an older interpreter on your machine, rerun with `PYTHON_BIN=python3.11 ./configure_repo.sh`.
+3. If you prefer to run setup manually, the underlying commands are:
+
+   - `./bootstrap_python_env.sh`
+   - `./install_repo_kernel.sh`
+   - `R -q -e 'renv::restore(project = "semantic-change/workspace", lockfile = "semantic-change/workspace/renv.lock")'`
+
+4. `./configure_repo.sh` already materializes the remaining repo-mode prerequisite shipped with this bundle.
+   If you skipped that helper, run the remaining manual setup step:
+
+   - `./.venv/bin/python semantic-change/workspace/code/scripts/setup_scibert_model.py`
+
+5. Read `semantic-change/workspace/README.md` and run the notebooks/scripts in the documented order to rebuild any workspace-level assets omitted from repo mode.
+6. Shared-resource provenance for this exported copy is recorded in `manifest.resolved.json`.
+
+## Python contract
+
+- exported lock file: `semantic-change/workspace/config/requirements.lock.txt`
+
+## R contract
+
+- exported lock file: `semantic-change/workspace/renv.lock`
+
+## Provenance
+
+The file `manifest.resolved.json` records the exact shared resources bundled with this export and the bundle-specific rebuild assumptions.

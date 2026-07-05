@@ -1,0 +1,30 @@
+---
+format:
+  html:
+    author: "Simon Allzén"
+    title: "TF-IDF Lists"
+    subtitle: "_Shared Research Infrastructure_"
+    theme:
+      dark: darkly
+      light: flatly
+    mainfont: "Fraunces"
+    fontsize: "10pt"
+    code-fold: true
+    code-summary: "Show the code"
+    tabset: true
+    minimal: true
+    max-width: "1600"
+    smooth-scroll: true
+    page-layout: article
+    df-print: kable
+    mermaid:
+      theme: neutral
+
+  gfm:
+    toc: false
+    output-file: README.md
+---
+
+# Shared TF-IDF Lists
+
+Canonical shared TF-IDF stopword and related list resources.

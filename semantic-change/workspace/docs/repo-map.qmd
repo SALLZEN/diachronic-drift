@@ -1,0 +1,206 @@
+---
+author: "Simon Allzén"
+title: "Workspace Map"
+subtitle: "_Semantic Change / Diachronic Drift of Dark Matter_"
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: flatly
+    mainfont: "Fraunces"
+    fontsize: "10pt"
+    code-fold: true
+    code-summary: "Show the code"
+    tabset: true
+    minimal: true
+    max-width: "1600"
+    smooth-scroll: true
+    page-layout: article
+    df-print: kable
+    mermaid:
+      theme: neutral
+
+  gfm:
+    toc: false
+    output-file: repo-map.md
+    mermaid-format: svg
+---
+
+## Workspace map
+
+This document maps the canonical `semantic-change/workspace` surface. It should be read as the accepted structure map for the workspace.
+
+## At a glance
+
+- `code/notebooks/` contains the accepted notebook spine
+- `code/scripts/` contains the accepted Python and R entrypoints
+- `code/appendix/` contains the supplementary RDF / triplet branch
+- `config/` holds the root sentinel and environment contracts
+- `data/` holds standardized paper-local data products
+- `local/` holds durable paper-specific assets such as corpora, manual
+  curation, and bundled local model assets
+- `outputs/` holds derived result families and appendix-facing outputs
+
+## Repository structure
+
+```{text}
+workspace/
+├── README.md
+├── code/
+│   ├── notebooks/
+│   ├── scripts/
+│   └── appendix/
+│       ├── README.md
+│       ├── APDX_1.0.0-rdf-triplet-extraction-api.ipynb
+│       ├── APDX_2.0.1-clean-triplets.ipynb
+│       ├── clean_triplets_with_ontology.py
+│       ├── APDX_3.0.0-build-triplet-assets.R
+│       └── rdf_triplet_extraction.py
+├── config/
+│   ├── workspace.json
+│   ├── requirements.txt
+│   └── requirements-R.txt
+├── data/
+│   ├── parquet/
+│   ├── rdata/
+│   └── derived/
+├── docs/
+│   ├── README.qmd
+│   └── repo-map.qmd
+├── local/
+│   ├── corpora/
+│   ├── curation/
+│   └── models/
+└── outputs/
+    ├── analytical-results/
+    │   ├── analysis_corpus/
+    │   ├── lexical_master/
+    │   └── models/
+    ├── dimension-reduction/
+    │   └── models/
+    └── appendix/
+        ├── figures/
+        └── runs/
+```
+
+## Structure chart
+
+```{mermaid}
+%%| fig-width: 12
+%%| fig-height: 7
+%%| fig-responsive: false
+
+flowchart LR
+    W["workspace/"]
+    W --> C["code/"]
+    W --> CFG["config/"]
+    W --> D["data/"]
+    W --> DOC["docs/"]
+    W --> L["local/"]
+    W --> O["outputs/"]
+
+    C --> NB["notebooks/"]
+    C --> S["scripts/"]
+    C --> A["appendix/"]
+
+    L --> LC["corpora/"]
+    L --> LU["curation/"]
+    L --> LM["models/"]
+
+    O --> OA["analytical-results/"]
+    O --> OD["dimension-reduction/"]
+    O --> OX["appendix/"]
+```
+
+## Surface meanings
+
+### code/notebooks/
+
+This is the accepted home of the main notebook spine.
+
+Current accepted notebook surfaces:
+
+- `0.0.0-master-corpus-build.ipynb`
+- `0.1.0-corpus-splitting.ipynb`
+- `1.0.0-embeddings.ipynb`
+- `1.1.0-dimension-reduction.ipynb`
+- `2.0.0-seed-classification-gpt.ipynb`
+- `2.1.0-train-classification-model.ipynb`
+- `2.2.0-run-classification-model.ipynb`
+- `3.0.0-empirical-testing.ipynb`
+- `3.1.0-significance-testing.ipynb`
+- `4.0.0-collostructional-analysis.ipynb`
+
+The main notebook spine is now migrated into the accepted workspace.
+
+### code/scripts/
+
+This is the accepted home of the main Python and R entrypoints.
+
+Current accepted engine/module surface:
+
+- `setup_scibert_model.py`
+
+### code/appendix/
+
+This is the accepted supplementary RDF / triplet branch. It should not be
+treated as the primary analytical workflow.
+
+### config/
+
+This directory is foundational.
+
+- `workspace.json` is the only accepted root sentinel
+- `requirements.txt` is the canonical Python environment contract
+- `requirements-R.txt` is the canonical R environment contract
+
+### data/
+
+This directory is for standardized project-local data products.
+
+- `parquet/` is the intended home of project-local parquet products such as the
+  rebuilt ADS spine
+
+At present, `parquet/` is the only active standardized local data surface in
+this workspace. Additional subdirectories should be introduced only when they
+are genuinely live and documented.
+
+### local/
+
+This directory is for durable project-specific assets that should not be forced
+into cross-project standardization.
+
+- `corpora/` for project-local corpus assets
+- `curation/` for manual curation resources such as OpenRefine sidecars
+- `models/` for bundled project-local model assets such as SciBERT
+
+### outputs/
+
+This directory is for derived outputs rather than authoritative inputs.
+
+- `analytical-results/` is the canonical successor to the older
+  `word-emb-context` family
+- `dimension-reduction/` is the canonical successor to the older `dim-red`
+  family
+- `appendix/` is the canonical home of derived appendix-facing outputs
+
+## Root-resolution contract
+
+All executable surfaces in this workspace should resolve paths through:
+
+- `config/workspace.json`
+- `../../shared-assets/code/workspace_rooting/workspace_paths.py`
+- `../../shared-assets/code/workspace_rooting/workspace_paths.R`
+
+Legacy `_publish.yml` is not part of root detection in the rebuilt
+`research/semantic-change` workspace.
+
+## Interpretation guide
+
+- `csv/`, `phrase_corpora/`, `word-emb-context/`, `dim-red/`, `data/local/`,
+  `env/`, and the old top-level `notebooks/`, `scripts/`, and `experimental/`
+  paths are not canonical in the rebuilt workspace
+- `local/` is for durable project-specific assets, not shared assets
+- `outputs/` is for derived products, not authoritative inputs
+- no `paper/` or `overleaf/` surface is retained in this code-replication bundle

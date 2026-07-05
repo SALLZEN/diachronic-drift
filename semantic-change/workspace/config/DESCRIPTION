@@ -1,0 +1,17 @@
+Package: dmsemanticcompanion
+Type: Project
+Title: Computational Companion for Semantic Change / Diachronic Drift of Dark Matter
+Version: 0.0.1
+Authors@R: c(person(given = "Simon", family = "Allzén", role = c("aut", "cre"), email = "simon.allzen@philosophy.su.se"))
+Description: Reproducible scripts, notebooks, and environment metadata for the paper workspace.
+License: file LICENSE
+Encoding: UTF-8
+Imports:
+    arrow,
+    dplyr,
+    ggalluvial,
+    ggplot2,
+    paletteer,
+    rcartocolor,
+    scales,
+    stringr

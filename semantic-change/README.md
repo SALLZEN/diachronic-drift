@@ -1,0 +1,68 @@
+
+
+# Semantic Change / Diachronic Drift
+
+Status: computational replication bundle.
+
+## Authoritative entrypoints
+
+- computational companion: `workspace/`
+- rebuildable analytical outputs are omitted in repo mode
+- explicit repo-mode exceptions remain under `workspace/outputs/`
+
+## Computational contract
+
+The accepted workspace surfaces are:
+
+- `workspace/code/`
+- `workspace/config/`
+- `workspace/data/`
+- `workspace/outputs/`
+- `workspace/docs/`
+- `workspace/local/`
+
+The only root sentinel is `workspace/config/workspace.json`.
+
+## Shared dependencies
+
+- `../shared-assets/data/processed-data/`
+- `../shared-assets/data/processed-data/avg_citations_result.parquet`
+- `../shared-assets/code/dm_term_normalization/`
+- `../shared-assets/lists/tfidf/`
+- `../shared-assets/config/tfidf/`
+
+## Environment recovery
+
+- bundle-local Python habitat: `../.venv/`, created by `../configure_repo.sh` (or `../bootstrap_python_env.sh` if you are setting things up manually)
+- workspace-local Python contract: `workspace/config/requirements.txt`
+- workspace-local R contracts: `workspace/config/requirements-R.txt`,
+  `workspace/config/renv.lock`, and `workspace/config/DESCRIPTION`
+- restore R dependencies in-workspace with `renv::restore()`
+- repo-style standalone runs should materialize the local SciBERT
+  directory with `workspace/code/scripts/setup_scibert_model.py` before
+  `workspace/code/notebooks/1.0.0-embeddings.ipynb`; the script unpacks
+  the bundled base-model archive from
+  `shared-assets/models/scibert_uncased/scibert_bundle.zip`
+
+## Accepted analytical layers
+
+- main notebook spine in `workspace/code/notebooks/`
+- local SciBERT setup in
+  `workspace/code/scripts/setup_scibert_model.py`
+- retained outputs in `workspace/outputs/analytical-results/`,
+  `workspace/outputs/dimension-reduction/`, and
+  `workspace/outputs/appendix/`
+- supplementary RDF workflow in `workspace/code/appendix/`
+
+## Standalone bundle notes
+
+- this directory already lives inside a standalone export bundle
+- start at the bundle-root `README.md` for setup and rebuild order
+- shared-resource provenance for this exported copy is recorded in `../manifest.resolved.json`
+
+## Notebook artifacts
+
+- notebook rendering/export tooling is not bundled in this standalone repo
+  export
+- treat the notebooks under `workspace/code/notebooks/` as the canonical
+  executable record

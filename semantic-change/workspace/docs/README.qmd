@@ -1,0 +1,159 @@
+---
+format:
+  html:
+    author: "Simon Allzén"
+    title: "Workspace Companion"
+    subtitle: "_Semantic Change / Diachronic Drift of Dark Matter_"
+    theme:
+      dark: darkly
+      light: flatly
+    mainfont: "Fraunces"
+    fontsize: "10pt"
+    code-fold: true
+    code-summary: "Show the code"
+    tabset: true
+    minimal: true
+    max-width: "1600"
+    smooth-scroll: true
+    page-layout: article
+    df-print: kable
+    mermaid:
+      theme: neutral
+
+  gfm:
+    toc: false
+    output-file: README.md
+---
+
+## Role
+
+This directory is the canonical computational workspace for the
+`semantic-change` project.
+
+This workspace should be understood as the accepted computational replication surface for the project:
+
+- the canonical structure is settled
+- the root-resolution contract is in place
+- the main notebook, script, appendix, and retained output layers are now installed
+
+For the local structure map, see [`repo-map.qmd`](repo-map.qmd).
+
+## Canonical structure
+
+The accepted internal workspace structure is:
+
+- `code/notebooks/` for the main notebook spine
+- `code/scripts/` for Python and R entrypoints
+- `code/appendix/` for the supplementary RDF / triplet branch
+- `config/` for dependency contracts and the workspace root marker
+- `data/` for standardized project-local data products
+- `outputs/` for derived analytical outputs
+- `docs/` for runbooks and structural maps
+- `local/` for durable project-specific assets that are not shared cross-project
+
+## Root resolution
+
+All executable surfaces in this workspace should resolve paths through:
+
+- `config/workspace.json`
+- `../../shared-assets/code/workspace_rooting/workspace_paths.py`
+- `../../shared-assets/code/workspace_rooting/workspace_paths.R`
+
+Legacy `_publish.yml` is not part of root detection in this workspace.
+
+## Canonical dependencies
+
+### Shared inputs
+
+- `../../shared-assets/data/processed-data/`
+- `../../shared-assets/data/processed-data/avg_citations_result.parquet`
+- `../../shared-assets/code/dm_term_normalization/`
+- `../../shared-assets/lists/tfidf/`
+- `../../shared-assets/config/tfidf/`
+
+### Local environment contracts
+
+- `config/requirements.txt`
+- `config/requirements-R.txt`
+
+## Canonical local surfaces
+
+### `local/models/`
+
+Project-specific bundled model assets live here. The intended home for the
+bundled SciBERT copy is:
+
+- `local/models/scibert_scivocab_uncased/`
+
+### `local/corpora/`
+
+Durable project-local corpus assets belong here.
+
+### `local/curation/openrefine/`
+
+The retained manual OpenRefine sidecar belongs here.
+
+These surfaces are project-specific. Anything genuinely shared across projects
+belongs in `../../shared-assets/` instead.
+
+## Canonical data and outputs
+
+### Data
+
+- `data/parquet/` for project-local parquet products such as the rebuilt ADS
+  spine
+
+At present, `data/parquet/` is the only active standardized local data surface
+in this workspace. Additional subdirectories should be added only when they are
+genuinely live and justified by the accepted workflow.
+
+### Outputs
+
+- `outputs/analytical-results/` for analytical result families formerly treated
+  as `word-emb-context`
+- `outputs/dimension-reduction/` for outputs formerly treated as `dim-red`
+- `outputs/appendix/` for supplementary appendix-facing derived outputs
+
+## Accepted surfaces
+
+### Installed foundation
+
+- `config/workspace.json`
+- `config/requirements.txt`
+- `config/requirements-R.txt`
+
+### Current accepted notebook surfaces
+
+- `code/notebooks/0.0.0-master-corpus-build.ipynb`
+- `code/notebooks/0.1.0-corpus-splitting.ipynb`
+- `code/notebooks/1.0.0-embeddings.ipynb`
+- `code/notebooks/1.1.0-dimension-reduction.ipynb`
+- `code/notebooks/2.0.0-seed-classification-gpt.ipynb`
+- `code/notebooks/2.1.0-train-classification-model.ipynb`
+- `code/notebooks/2.2.0-run-classification-model.ipynb`
+- `code/notebooks/3.0.0-empirical-testing.ipynb`
+- `code/notebooks/3.1.0-significance-testing.ipynb`
+- `code/notebooks/4.0.0-collostructional-analysis.ipynb`
+
+The main notebook spine is now migrated into the accepted workspace.
+
+### Current accepted engine/module surface
+
+- `code/scripts/setup_scibert_model.py`
+
+### Current accepted retained output surfaces
+
+- `outputs/analytical-results/`
+- `outputs/dimension-reduction/`
+- `outputs/appendix/`
+
+The appendix branch is now accepted as a supplementary workflow and should not
+be treated as the primary analytical workflow.
+
+## Transparency notes
+
+- old compatibility-era interfaces such as `csv/`, `phrase_corpora/`,
+  `word-emb-context/`, `dim-red/`, `data/local/`, and `env/` are not canonical
+  in the rebuilt workspace
+- `config/workspace.json` is the only accepted root sentinel here
+- analytical outputs should be consumed through `outputs/` and `data/parquet/`, not through a separate publication-facing surface
