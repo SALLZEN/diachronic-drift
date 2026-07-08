@@ -1,6 +1,6 @@
 """Backend helpers for notebook-first RDF triplet cleaning.
 
-The canonical human-facing cleaning stage now lives in:
+The same cleaning stage is implemented in:
 
 `APDX_2.0.1-clean-triplets.ipynb`
 

@@ -1,6 +1,6 @@
 """Shared helpers for the notebook-first RDF extraction workflow.
 
-This module keeps the extraction contract stable across reruns by owning:
+This module keeps the extraction contract stable across reruns by acting as a root source for:
 
 - the extraction prompt
 - the structured-output schema
