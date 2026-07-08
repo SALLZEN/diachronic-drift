@@ -34,3 +34,8 @@ tmp/
 README.html
 README_files/
 
+# Notebooks / scripts
+.semantic-change/workspace/code/appendix/APDX_4.0.0-cooccurrence-network.ipynb
+.semantic-change/workspace/code/appendix/APDX_5.0.0-discourse-graphs.ipynb
+.semantic-change/workspace/code/appendix/appendix_discourse_graphs.py
+
